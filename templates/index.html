@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthSync - Admissions & AI Audit Desk</title>
+    <meta name="description" content="Clinical admissions audit and conflict recommendation system powered by Cooperative AI Agents">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/styles.css?v=2.1.0">
+</head>
+<body>
+
+<!-- ========== DASHBOARD PAGE ========== -->
+<script>
+    // Enforce Authentication
+    const doctor = localStorage.getItem('healthSyncDoctor');
+    const hospital = localStorage.getItem('healthSyncHospital');
+    
+    if (!doctor || !hospital) {
+        window.location.href = '/login';
+    }
+</script>
+
+<section id="dashboard-page" class="page active">
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar glass-panel">
+            <div class="sidebar-header">
+                <i class="fa-solid fa-heart-pulse logo-icon text-turquoise"></i>
+                <h2>HealthSync</h2>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-item active" data-tab="admissions-tab">
+                    <i class="fa-solid fa-clipboard-list"></i>
+                    <span>Admissions Desk</span>
+                    <span class="badge badge-turquoise" id="admissions-count-badge">0</span>
+                </a>
+                <a href="#" class="nav-item" data-tab="conflicts-tab">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <span>Audit Trail Log</span>
+                </a>
+                <a href="#" class="nav-item" data-tab="patients-tab">
+                    <i class="fa-solid fa-users-medical"></i>
+                    <span>EHR Database</span>
+                </a>
+            </nav>
+            <div class="sidebar-footer">
+                <a href="#" class="nav-item" id="logout-btn">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Top Bar -->
+            <header class="top-bar glass-panel">
+                <div class="doctor-info">
+                    <div class="avatar" id="doctor-avatar">Dr</div>
+                    <div>
+                        <strong id="display-name">Doctor</strong>
+                        <span class="dept-tag" id="display-dept-hospital">Department - Hospital</span>
+                    </div>
+                </div>
+                <div class="top-actions">
+                    <button class="btn btn-outline btn-sm" id="simulate-toggle-btn">
+                        <i class="fa-solid fa-plus"></i> Simulate Admission
+                    </button>
+                    <button class="btn btn-primary" id="run-pipeline-btn">
+                        <i class="fa-solid fa-rotate"></i> Refresh Queue
+                    </button>
+                </div>
+            </header>
+
+            <!-- Alert banner for simulated check-ins -->
+            <div id="sim-alert-banner" class="alert-banner glass-panel animate-slide-down" style="display: none;">
+                <i class="fa-solid fa-circle-info text-turquoise"></i>
+                <span id="sim-alert-text">Simulating admission...</span>
+            </div>
+
+            <!-- Admissions Queue Tab -->
+            <div id="admissions-tab" class="tab-content active">
+                <div class="section-title">
+                    <h1>Admissions Desk Queue</h1>
+                    <p>Auditing incoming walk-in patient reports against existing EHR histories</p>
+                </div>
+
+                <div class="table-wrapper glass-panel">
+                    <table class="data-table" id="admissions-table">
+                        <thead>
+                            <tr>
+                                <th>Patient Name</th>
+                                <th>Gender</th>
+                                <th>Report Source</th>
+                                <th>Admission Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="admissions-tbody">
+                            <!-- Populated dynamically -->
+                        </tbody>
+                    </table>
+                    <div id="no-admissions-msg" class="empty-state">
+                        <i class="fa-solid fa-check-double text-turquoise"></i>
+                        <p>All incoming patient records resolved!</p>
+                        <small>Click "Simulate Admission" to walk a new patient in.</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Audit Trail Log Tab -->
+            <div id="conflicts-tab" class="tab-content">
+                <div class="section-title">
+                    <h1>Clinical Resolution Logs</h1>
+                    <p>Historic track record of resolved patient EHR files</p>
+                </div>
+
+                <div class="table-wrapper glass-panel">
+                    <table class="data-table" id="conflicts-table">
+                        <thead>
+                            <tr>
+                                <th>Patient Name</th>
+                                <th>Resolved Conflict</th>
+                                <th>Auditor Score</th>
+                                <th>Specialty Route</th>
+                                <th>Attending Doctor</th>
+                            </tr>
+                        </thead>
+                        <tbody id="conflicts-tbody">
+                            <!-- Populated dynamically -->
+                        </tbody>
+                    </table>
+                    <div id="no-conflicts-msg" class="empty-state" style="display:none;">
+                        <i class="fa-solid fa-database"></i>
+                        <p>No historical resolution logs recorded yet.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Patients EHR Tab -->
+            <div id="patients-tab" class="tab-content">
+                <div class="section-title">
+                    <h1>Central EHR Database</h1>
+                    <p>Clean, unified patient records stored securely in PostgreSQL</p>
+                </div>
+
+                <div class="table-wrapper glass-panel">
+                    <table class="data-table" id="patients-table">
+                        <thead>
+                            <tr>
+                                <th>Patient ID</th>
+                                <th>Name</th>
+                                <th>Gender</th>
+                                <th>Standardized Blood</th>
+                                <th>Active Diagnoses</th>
+                                <th>Medications</th>
+                            </tr>
+                        </thead>
+                        <tbody id="patients-tbody">
+                            <!-- Populated dynamically -->
+                        </tbody>
+                    </table>
+                    <div id="no-patients-msg" class="empty-state" style="display:none;">
+                        <i class="fa-solid fa-folder-open"></i>
+                        <p>Central database table is currently empty.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- ========== CLINICAL AUDIT & RESOLUTION PANEL ========== -->
+    <div id="review-overlay" class="review-overlay">
+        <div class="review-panel glass-panel">
+            <div class="review-header">
+                <h2><i class="fa-solid fa-shield-halved text-turquoise"></i> Clinical AI Agents Audit Desk</h2>
+                <button class="close-btn" id="close-review">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            
+            <div class="review-body">
+                <!-- Patient Overview Header -->
+                <div class="patient-audit-header glass-panel">
+                    <div>
+                        <h3 id="audit-patient-name" style="margin:0;color:var(--text-dark);">John Doe</h3>
+                        <small id="audit-patient-gender" style="color:var(--text-muted);">Male</small>
+                    </div>
+                    <div>
+                        <span class="hospital-source-label" id="audit-source-hosp">Metro Clinic</span>
+                    </div>
+                </div>
+
+                <!-- Cooperative AI Agent Panel -->
+                <div class="ai-agents-section">
+                    <div class="ai-agent-card glass-panel">
+                        <div class="agent-title">
+                            <i class="fa-solid fa-network-wired text-turquoise"></i>
+                            <strong>Clinical AI Agents Cooperative Analysis</strong>
+                        </div>
+                        <div class="agent-details">
+                            <div class="agent-step">
+                                <span class="step-badge success">Ingestion Agent</span>
+                                <p class="step-desc agent-reasoning-text" id="ingestion-agent-status">Validated walk-in clinical report successfully. Formats aligned to FHIR standards.</p>
+                            </div>
+                            <div class="agent-step">
+                                <span class="step-badge warning">Conflict Auditor Agent</span>
+                                <p class="step-desc agent-reasoning-text" id="auditor-agent-status">Auditing EHR PostgreSQL databases for profile identity mismatches...</p>
+                            </div>
+                            <div class="agent-step">
+                                <span class="step-badge primary">Clinical Chief Agent</span>
+                                <p class="step-desc agent-reasoning-text" id="chief-agent-status">Formulating reliability weights and therapeutical action rationale.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI Recommendations Box -->
+                <div class="recommendation-box" style="margin-top: 15px;">
+                    <h3><i class="fa-solid fa-clipboard-check text-turquoise"></i> Clinical Chief — Action Items</h3>
+                    <div id="review-recommendation" class="recommendation-content"></div>
+                </div>
+
+                <!-- Dynamic Conflict Form Grid -->
+                <h3 style="margin-top:20px; color:var(--text-dark);"><i class="fa-solid fa-code-merge"></i> Interactive Merging Desk</h3>
+                <form id="resolution-form">
+                    <div class="conflict-selection-grid">
+                        
+                        <!-- Blood Group Merge -->
+                        <div class="merge-card glass-panel" id="blood-merge-card">
+                            <label class="merge-label"><i class="fa-solid fa-droplet" style="color:#d9534f;"></i> Select Final Blood Group</label>
+                            <div class="merge-options" id="blood-options-container">
+                                <!-- Populated dynamically with radios -->
+                            </div>
+                        </div>
+
+                        <!-- Diagnoses Merge -->
+                        <div class="merge-card glass-panel" id="diagnosis-merge-card">
+                            <label class="merge-label"><i class="fa-solid fa-notes-medical" style="color:var(--primary);"></i> Merge Diagnoses</label>
+                            <div class="merge-options-checkbox" id="diagnosis-options-container">
+                                <!-- Populated dynamically with checkboxes -->
+                            </div>
+                        </div>
+
+                        <!-- Medications Merge -->
+                        <div class="merge-card glass-panel" id="medications-merge-card">
+                            <label class="merge-label"><i class="fa-solid fa-pills" style="color:#5cb85c;"></i> Merge Medications</label>
+                            <div class="merge-options-checkbox" id="medications-options-container">
+                                <!-- Populated dynamically with checkboxes -->
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Actions Panel -->
+                    <div class="resolution-actions-bar" style="margin-top: 25px;">
+                        <button type="submit" class="btn btn-primary" id="submit-resolution-btn">
+                            <i class="fa-solid fa-circle-check"></i> Sign & Sync to EHR
+                        </button>
+                        
+                        <!-- Bi-directional Exporters -->
+                        <div class="export-group" id="exporter-group" style="display: none;">
+                            <span style="font-size:0.85rem;color:var(--text-muted);margin-right:8px;">Export Resolved EHR:</span>
+                            <button type="button" class="btn btn-outline btn-xs" onclick="downloadEHR('json')"><i class="fa-solid fa-file-code"></i> JSON</button>
+                            <button type="button" class="btn btn-outline btn-xs" onclick="downloadEHR('xml')"><i class="fa-solid fa-file-lines"></i> XML</button>
+                            <button type="button" class="btn btn-outline btn-xs" onclick="downloadEHR('csv')"><i class="fa-solid fa-file-csv"></i> CSV</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Global Nurse Joy Toggle Button -->
+    <button id="nurse-joy-toggle" class="btn btn-primary joy-toggle-btn glass-panel" title="Chat with Nurse Joy">
+        <i class="fa-solid fa-user-nurse"></i>
+        <span class="pulse-ring"></span>
+    </button>
+
+    <!-- Nurse Joy Floating Chat Widget -->
+    <div id="nurse-joy-chat" class="chat-widget glass-panel">
+        <div class="chat-header">
+            <div style="display:flex; align-items:center; gap:10px;">
+                <div class="joy-avatar"><i class="fa-solid fa-user-nurse"></i></div>
+                <div>
+                    <strong>Nurse Joy</strong>
+                    <div style="font-size:0.75rem; color:#2ecc71;">● AI Online</div>
+                </div>
+            </div>
+            <button class="close-btn" id="close-chat-btn" style="color:white;"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <!-- Active Patient Context Banner -->
+        <div id="chat-patient-banner" style="display:none; padding:8px 16px; background:rgba(32,178,170,0.08); border-bottom:1px solid rgba(32,178,170,0.15); font-size:0.8rem; justify-content:space-between; align-items:center;">
+            <span><i class="fa-solid fa-user-injured text-turquoise" style="margin-right:6px;"></i>Active: <strong id="chat-patient-name">None</strong></span>
+            <button id="clear-chat-patient-btn" style="background:none; border:none; cursor:pointer; color:var(--text-muted); padding:2px;"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div id="chat-messages" class="chat-body">
+            <div class="chat-message joy">
+                Hello Doctor! I'm Nurse Joy. I can help you navigate the app or answer questions about the current patient's clinical file.
+            </div>
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="chat-input" placeholder="Ask Nurse Joy..." autocomplete="off" />
+            <button id="send-chat-btn"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+    </div>
+</section>
+
+<script src="/static/js/app.js?v=2.1.0"></script>
+</body>
+</html>

@@ -1,0 +1,1183 @@
+{
+  "generated": "2026-05-15T09:56:17",
+  "total_patients": 75,
+  "patients_with_conflicts": 62,
+  "conflict_rate_pct": 82.7,
+  "conflicts": [
+    {
+      "pid": "PT1000",
+      "name": "Carlos Joshi",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "B-",
+          "hospital_B": "B+",
+          "hospital_C": "B-"
+        }
+      ]
+    },
+    {
+      "pid": "PT1001",
+      "name": "Wei Wilson",
+      "conflicts": [
+        {
+          "field": "age",
+          "hospital_A": 61,
+          "hospital_B": 61,
+          "hospital_C": 59
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 248.0,
+          "hospital_B": 254.0,
+          "hospital_C": 258.9
+        }
+      ]
+    },
+    {
+      "pid": "PT1002",
+      "name": "James Das",
+      "conflicts": [
+        {
+          "field": "medications",
+          "hospital_A": [
+            "Aspirin",
+            "Cetirizine",
+            "Levothyroxine"
+          ],
+          "hospital_B": [
+            "Hydrochlorothiazide",
+            "Rosuvastatin",
+            "Pantoprazole"
+          ],
+          "hospital_C": [
+            "Aspirin",
+            "Cetirizine",
+            "Levothyroxine"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "PT1003",
+      "name": "Robert Kumar",
+      "conflicts": [
+        {
+          "field": "medications",
+          "hospital_A": [
+            "Gabapentin",
+            "Hydrochlorothiazide",
+            "Pantoprazole"
+          ],
+          "hospital_B": [
+            "Metoprolol",
+            "Hydrochlorothiazide",
+            "Gabapentin"
+          ],
+          "hospital_C": [
+            "Gabapentin",
+            "Hydrochlorothiazide",
+            "Pantoprazole"
+          ]
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 99.3,
+          "hospital_B": 106.6,
+          "hospital_C": 96.9
+        }
+      ]
+    },
+    {
+      "pid": "PT1004",
+      "name": "Kavya Singh",
+      "conflicts": [
+        {
+          "field": "medications",
+          "hospital_A": [
+            "Pantoprazole",
+            "Aspirin",
+            "Rosuvastatin",
+            "Metoprolol"
+          ],
+          "hospital_B": [
+            "Hydrochlorothiazide",
+            "Sertraline",
+            "Insulin Glargine"
+          ],
+          "hospital_C": [
+            "Pantoprazole",
+            "Aspirin",
+            "Rosuvastatin",
+            "Metoprolol"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "PT1005",
+      "name": "Ashley Krishnan",
+      "conflicts": [
+        {
+          "field": "medications",
+          "hospital_A": [
+            "Sertraline"
+          ],
+          "hospital_B": [
+            "Pantoprazole",
+            "Insulin Glargine",
+            "Cetirizine"
+          ],
+          "hospital_C": [
+            "Sertraline"
+          ]
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 265.1,
+          "hospital_B": 272.4,
+          "hospital_C": 260.1
+        }
+      ]
+    },
+    {
+      "pid": "PT1006",
+      "name": "Smita Shah",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "B-",
+          "hospital_B": "AB+",
+          "hospital_C": "B-"
+        }
+      ]
+    },
+    {
+      "pid": "PT1007",
+      "name": "Rohit Garcia",
+      "conflicts": [
+        {
+          "field": "medications",
+          "hospital_A": [
+            "Insulin Glargine",
+            "Hydrochlorothiazide"
+          ],
+          "hospital_B": [
+            "Omeprazole",
+            "Amlodipine"
+          ],
+          "hospital_C": [
+            "Insulin Glargine",
+            "Hydrochlorothiazide"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "PT1008",
+      "name": "Geeta Garcia",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "B-",
+          "hospital_B": "A-",
+          "hospital_C": "B-"
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 163.1,
+          "hospital_B": 155.9,
+          "hospital_C": 168.6
+        }
+      ]
+    },
+    {
+      "pid": "PT1009",
+      "name": "Harish Bose",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "B+",
+          "hospital_B": "AB-",
+          "hospital_C": "B+"
+        },
+        {
+          "field": "age",
+          "hospital_A": 69,
+          "hospital_B": 69,
+          "hospital_C": 70
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 132.3,
+          "hospital_B": 139.9,
+          "hospital_C": 141.2
+        }
+      ]
+    },
+    {
+      "pid": "PT1010",
+      "name": "Kavya Verma",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "B-",
+          "hospital_B": "B+",
+          "hospital_C": "B-"
+        }
+      ]
+    },
+    {
+      "pid": "PT1011",
+      "name": "Aarav Wang",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "B-",
+          "hospital_B": "O+",
+          "hospital_C": "B-"
+        }
+      ]
+    },
+    {
+      "pid": "PT1012",
+      "name": "Vikram Jones",
+      "conflicts": [
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 89.4,
+          "hospital_B": 96.3,
+          "hospital_C": 94.3
+        }
+      ]
+    },
+    {
+      "pid": "PT1013",
+      "name": "Divya Reddy",
+      "conflicts": [
+        {
+          "field": "medications",
+          "hospital_A": [
+            "Lisinopril",
+            "Albuterol"
+          ],
+          "hospital_B": [
+            "Lisinopril",
+            "Metformin"
+          ],
+          "hospital_C": [
+            "Lisinopril",
+            "Albuterol"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "PT1015",
+      "name": "Ashley Reddy",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "O+",
+          "hospital_B": "A+",
+          "hospital_C": "O+"
+        },
+        {
+          "field": "age",
+          "hospital_A": 53,
+          "hospital_B": 53,
+          "hospital_C": 51
+        }
+      ]
+    },
+    {
+      "pid": "PT1017",
+      "name": "Swati Menon",
+      "conflicts": [
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 178.2,
+          "hospital_B": 183.4,
+          "hospital_C": 173.5
+        }
+      ]
+    },
+    {
+      "pid": "PT1019",
+      "name": "Jessica Jones",
+      "conflicts": [
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 219.8,
+          "hospital_B": 227.1,
+          "hospital_C": 210.7
+        }
+      ]
+    },
+    {
+      "pid": "PT1020",
+      "name": "Arjun Davis",
+      "conflicts": [
+        {
+          "field": "allergies",
+          "hospital_A": [
+            "Penicillin",
+            "Ibuprofen"
+          ],
+          "hospital_B": [
+            "Penicillin"
+          ],
+          "hospital_C": [
+            "Penicillin",
+            "Ibuprofen"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "PT1021",
+      "name": "Ritu Brown",
+      "conflicts": [
+        {
+          "field": "allergies",
+          "hospital_A": [
+            "Peanuts",
+            "Penicillin",
+            "Dust mites"
+          ],
+          "hospital_B": [
+            "Peanuts"
+          ],
+          "hospital_C": [
+            "Peanuts",
+            "Penicillin",
+            "Dust mites"
+          ]
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 167.0,
+          "hospital_B": 173.3,
+          "hospital_C": 171.2
+        }
+      ]
+    },
+    {
+      "pid": "PT1023",
+      "name": "Swati Iyer",
+      "conflicts": [
+        {
+          "field": "medications",
+          "hospital_A": [
+            "Insulin Glargine"
+          ],
+          "hospital_B": [
+            "Cetirizine",
+            "Glimepiride",
+            "Hydrochlorothiazide"
+          ],
+          "hospital_C": [
+            "Insulin Glargine"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "PT1024",
+      "name": "Aarav Davis",
+      "conflicts": [
+        {
+          "field": "medications",
+          "hospital_A": [
+            "Glimepiride",
+            "Levothyroxine"
+          ],
+          "hospital_B": [
+            "Rosuvastatin"
+          ],
+          "hospital_C": [
+            "Glimepiride",
+            "Levothyroxine"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "PT1025",
+      "name": "Lakshmi Wang",
+      "conflicts": [
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 178.5,
+          "hospital_B": 184.9,
+          "hospital_C": 192.1
+        }
+      ]
+    },
+    {
+      "pid": "PT1026",
+      "name": "Aditya Brown",
+      "conflicts": [
+        {
+          "field": "allergies",
+          "hospital_A": [
+            "None",
+            "Dust mites"
+          ],
+          "hospital_B": [
+            "None"
+          ],
+          "hospital_C": [
+            "None",
+            "Dust mites"
+          ]
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 134.4,
+          "hospital_B": 128.3,
+          "hospital_C": 131.9
+        }
+      ]
+    },
+    {
+      "pid": "PT1027",
+      "name": "Nisha Anderson",
+      "conflicts": [
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 127.6,
+          "hospital_B": 120.5,
+          "hospital_C": 128.7
+        }
+      ]
+    },
+    {
+      "pid": "PT1028",
+      "name": "Harish Chen",
+      "conflicts": [
+        {
+          "field": "allergies",
+          "hospital_A": [
+            "Shellfish",
+            "Sulfa"
+          ],
+          "hospital_B": [
+            "Shellfish"
+          ],
+          "hospital_C": []
+        },
+        {
+          "field": "age",
+          "hospital_A": 61,
+          "hospital_B": 61,
+          "hospital_C": 59
+        }
+      ]
+    },
+    {
+      "pid": "PT1029",
+      "name": "Ajay Krishnan",
+      "conflicts": [
+        {
+          "field": "medications",
+          "hospital_A": [
+            "Metoprolol",
+            "Atorvastatin"
+          ],
+          "hospital_B": [
+            "Glimepiride"
+          ],
+          "hospital_C": [
+            "Metoprolol",
+            "Atorvastatin"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "PT1031",
+      "name": "Ajay Nair",
+      "conflicts": [
+        {
+          "field": "medications",
+          "hospital_A": [
+            "Insulin Glargine",
+            "Metformin"
+          ],
+          "hospital_B": [
+            "Cetirizine",
+            "Pantoprazole"
+          ],
+          "hospital_C": [
+            "Insulin Glargine",
+            "Metformin"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "PT1032",
+      "name": "Ritu Lopez",
+      "conflicts": [
+        {
+          "field": "medications",
+          "hospital_A": [
+            "Pantoprazole",
+            "Montelukast",
+            "Lisinopril"
+          ],
+          "hospital_B": [
+            "Omeprazole",
+            "Cetirizine",
+            "Amlodipine"
+          ],
+          "hospital_C": [
+            "Pantoprazole",
+            "Montelukast",
+            "Lisinopril"
+          ]
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 123.0,
+          "hospital_B": 117.9,
+          "hospital_C": 116.8
+        }
+      ]
+    },
+    {
+      "pid": "PT1033",
+      "name": "Sona Khan",
+      "conflicts": [
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 219.1,
+          "hospital_B": 226.8,
+          "hospital_C": 227.7
+        }
+      ]
+    },
+    {
+      "pid": "PT1035",
+      "name": "Ashley Mehta",
+      "conflicts": [
+        {
+          "field": "medications",
+          "hospital_A": [
+            "Aspirin",
+            "Sertraline",
+            "Gabapentin",
+            "Losartan"
+          ],
+          "hospital_B": [
+            "Metformin",
+            "Losartan",
+            "Gabapentin"
+          ],
+          "hospital_C": [
+            "Aspirin",
+            "Sertraline",
+            "Gabapentin",
+            "Losartan"
+          ]
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 232.9,
+          "hospital_B": 226.0,
+          "hospital_C": 220.2
+        }
+      ]
+    },
+    {
+      "pid": "PT1036",
+      "name": "Vishal Anderson",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "O-",
+          "hospital_B": "AB-",
+          "hospital_C": "O-"
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 234.1,
+          "hospital_B": 226.8,
+          "hospital_C": 247.6
+        }
+      ]
+    },
+    {
+      "pid": "PT1038",
+      "name": "Suresh Verma",
+      "conflicts": [
+        {
+          "field": "medications",
+          "hospital_A": [
+            "Aspirin",
+            "Metoprolol"
+          ],
+          "hospital_B": [
+            "Losartan",
+            "Albuterol"
+          ],
+          "hospital_C": [
+            "Aspirin",
+            "Metoprolol"
+          ]
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 258.8,
+          "hospital_B": 264.8,
+          "hospital_C": 260.2
+        }
+      ]
+    },
+    {
+      "pid": "PT1039",
+      "name": "Kiran Williams",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "B-",
+          "hospital_B": "AB-",
+          "hospital_C": "B-"
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 261.2,
+          "hospital_B": 267.3,
+          "hospital_C": 271.3
+        }
+      ]
+    },
+    {
+      "pid": "PT1040",
+      "name": "Carlos Kumar",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "A+",
+          "hospital_B": "B-",
+          "hospital_C": "A+"
+        },
+        {
+          "field": "age",
+          "hospital_A": 57,
+          "hospital_B": 57,
+          "hospital_C": 59
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 112.2,
+          "hospital_B": 119.3,
+          "hospital_C": 101.2
+        }
+      ]
+    },
+    {
+      "pid": "PT1041",
+      "name": "Ananya Das",
+      "conflicts": [
+        {
+          "field": "allergies",
+          "hospital_A": [
+            "Penicillin",
+            "Codeine"
+          ],
+          "hospital_B": [
+            "Penicillin"
+          ],
+          "hospital_C": []
+        }
+      ]
+    },
+    {
+      "pid": "PT1042",
+      "name": "Maria Davis",
+      "conflicts": [
+        {
+          "field": "age",
+          "hospital_A": 32,
+          "hospital_B": 32,
+          "hospital_C": 30
+        }
+      ]
+    },
+    {
+      "pid": "PT1043",
+      "name": "Ajay Chen",
+      "conflicts": [
+        {
+          "field": "allergies",
+          "hospital_A": [
+            "Latex",
+            "None",
+            "Dust mites"
+          ],
+          "hospital_B": [
+            "Latex"
+          ],
+          "hospital_C": []
+        }
+      ]
+    },
+    {
+      "pid": "PT1044",
+      "name": "Jessica Jones",
+      "conflicts": [
+        {
+          "field": "age",
+          "hospital_A": 44,
+          "hospital_B": 44,
+          "hospital_C": 45
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 183.4,
+          "hospital_B": 189.0,
+          "hospital_C": 179.9
+        }
+      ]
+    },
+    {
+      "pid": "PT1045",
+      "name": "Sanjay Singh",
+      "conflicts": [
+        {
+          "field": "allergies",
+          "hospital_A": [
+            "Shellfish",
+            "None",
+            "Sulfa"
+          ],
+          "hospital_B": [
+            "Shellfish"
+          ],
+          "hospital_C": [
+            "Shellfish",
+            "None",
+            "Sulfa"
+          ]
+        },
+        {
+          "field": "age",
+          "hospital_A": 34,
+          "hospital_B": 34,
+          "hospital_C": 32
+        }
+      ]
+    },
+    {
+      "pid": "PT1046",
+      "name": "Kavya Lopez",
+      "conflicts": [
+        {
+          "field": "medications",
+          "hospital_A": [
+            "Pantoprazole",
+            "Rosuvastatin",
+            "Albuterol"
+          ],
+          "hospital_B": [
+            "Gabapentin",
+            "Sertraline"
+          ],
+          "hospital_C": [
+            "Pantoprazole",
+            "Rosuvastatin",
+            "Albuterol"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "PT1047",
+      "name": "Vivek Wilson",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "AB-",
+          "hospital_B": "O-",
+          "hospital_C": "AB-"
+        }
+      ]
+    },
+    {
+      "pid": "PT1048",
+      "name": "Girish Ahmed",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "O-",
+          "hospital_B": "B+",
+          "hospital_C": "O-"
+        }
+      ]
+    },
+    {
+      "pid": "PT1049",
+      "name": "Meera Mehta",
+      "conflicts": [
+        {
+          "field": "allergies",
+          "hospital_A": [
+            "Penicillin",
+            "None",
+            "Sulfa"
+          ],
+          "hospital_B": [
+            "Penicillin"
+          ],
+          "hospital_C": []
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 147.7,
+          "hospital_B": 153.8,
+          "hospital_C": 161.3
+        }
+      ]
+    },
+    {
+      "pid": "PT1050",
+      "name": "Ajay Wilson",
+      "conflicts": [
+        {
+          "field": "allergies",
+          "hospital_A": [
+            "Dust mites",
+            "Ibuprofen"
+          ],
+          "hospital_B": [
+            "Dust mites"
+          ],
+          "hospital_C": [
+            "Dust mites",
+            "Ibuprofen"
+          ]
+        },
+        {
+          "field": "age",
+          "hospital_A": 80,
+          "hospital_B": 80,
+          "hospital_C": 78
+        }
+      ]
+    },
+    {
+      "pid": "PT1051",
+      "name": "Swati Bose",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "AB+",
+          "hospital_B": "AB-",
+          "hospital_C": "AB+"
+        },
+        {
+          "field": "age",
+          "hospital_A": 35,
+          "hospital_B": 35,
+          "hospital_C": 37
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 153.4,
+          "hospital_B": 160.4,
+          "hospital_C": 138.9
+        }
+      ]
+    },
+    {
+      "pid": "PT1052",
+      "name": "Vivek Shah",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "A-",
+          "hospital_B": "AB-",
+          "hospital_C": "A-"
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 116.5,
+          "hospital_B": 121.8,
+          "hospital_C": 122.9
+        }
+      ]
+    },
+    {
+      "pid": "PT1054",
+      "name": "Ajay Kumar",
+      "conflicts": [
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 164.4,
+          "hospital_B": 159.1,
+          "hospital_C": 169.8
+        }
+      ]
+    },
+    {
+      "pid": "PT1055",
+      "name": "Lakshmi Chen",
+      "conflicts": [
+        {
+          "field": "age",
+          "hospital_A": 74,
+          "hospital_B": 74,
+          "hospital_C": 76
+        }
+      ]
+    },
+    {
+      "pid": "PT1056",
+      "name": "Robert Gupta",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "O+",
+          "hospital_B": "A-",
+          "hospital_C": "O+"
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 280.0,
+          "hospital_B": 285.5,
+          "hospital_C": 280.7
+        }
+      ]
+    },
+    {
+      "pid": "PT1057",
+      "name": "Ramesh Williams",
+      "conflicts": [
+        {
+          "field": "allergies",
+          "hospital_A": [
+            "Aspirin",
+            "None",
+            "Pollen"
+          ],
+          "hospital_B": [
+            "Aspirin"
+          ],
+          "hospital_C": [
+            "Aspirin",
+            "None",
+            "Pollen"
+          ]
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 119.1,
+          "hospital_B": 112.1,
+          "hospital_C": 107.6
+        }
+      ]
+    },
+    {
+      "pid": "PT1058",
+      "name": "Nikhil Shah",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "AB+",
+          "hospital_B": "AB-",
+          "hospital_C": "AB+"
+        },
+        {
+          "field": "age",
+          "hospital_A": 43,
+          "hospital_B": 43,
+          "hospital_C": 41
+        }
+      ]
+    },
+    {
+      "pid": "PT1059",
+      "name": "Vishal Johnson",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "A-",
+          "hospital_B": "AB-",
+          "hospital_C": "A-"
+        },
+        {
+          "field": "age",
+          "hospital_A": 48,
+          "hospital_B": 48,
+          "hospital_C": 46
+        }
+      ]
+    },
+    {
+      "pid": "PT1060",
+      "name": "Jessica Mehta",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "A-",
+          "hospital_B": "B+",
+          "hospital_C": "A-"
+        }
+      ]
+    },
+    {
+      "pid": "PT1061",
+      "name": "Aarav Martinez",
+      "conflicts": [
+        {
+          "field": "allergies",
+          "hospital_A": [
+            "Dust mites",
+            "None",
+            "Sulfa"
+          ],
+          "hospital_B": [
+            "Dust mites"
+          ],
+          "hospital_C": [
+            "Dust mites",
+            "None",
+            "Sulfa"
+          ]
+        }
+      ]
+    },
+    {
+      "pid": "PT1062",
+      "name": "Rohit Martinez",
+      "conflicts": [
+        {
+          "field": "age",
+          "hospital_A": 61,
+          "hospital_B": 61,
+          "hospital_C": 60
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 112.3,
+          "hospital_B": 105.6,
+          "hospital_C": 125.9
+        }
+      ]
+    },
+    {
+      "pid": "PT1063",
+      "name": "Ashley Singh",
+      "conflicts": [
+        {
+          "field": "allergies",
+          "hospital_A": [
+            "Peanuts",
+            "None"
+          ],
+          "hospital_B": [
+            "Peanuts"
+          ],
+          "hospital_C": []
+        }
+      ]
+    },
+    {
+      "pid": "PT1066",
+      "name": "Sona Menon",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "A-",
+          "hospital_B": "A+",
+          "hospital_C": "A-"
+        }
+      ]
+    },
+    {
+      "pid": "PT1068",
+      "name": "Vishal Singh",
+      "conflicts": [
+        {
+          "field": "blood_group",
+          "hospital_A": "AB+",
+          "hospital_B": "AB-",
+          "hospital_C": "AB+"
+        }
+      ]
+    },
+    {
+      "pid": "PT1069",
+      "name": "Jessica Taylor",
+      "conflicts": [
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 171.4,
+          "hospital_B": 165.6,
+          "hospital_C": 164.2
+        }
+      ]
+    },
+    {
+      "pid": "PT1070",
+      "name": "Ashley Lopez",
+      "conflicts": [
+        {
+          "field": "allergies",
+          "hospital_A": [
+            "None",
+            "Dust mites"
+          ],
+          "hospital_B": [
+            "None"
+          ],
+          "hospital_C": []
+        },
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 95.7,
+          "hospital_B": 89.3,
+          "hospital_C": 104.1
+        }
+      ]
+    },
+    {
+      "pid": "PT1073",
+      "name": "John Garcia",
+      "conflicts": [
+        {
+          "field": "medications",
+          "hospital_A": [
+            "Lisinopril"
+          ],
+          "hospital_B": [
+            "Albuterol"
+          ],
+          "hospital_C": [
+            "Lisinopril"
+          ]
+        },
+        {
+          "field": "age",
+          "hospital_A": 64,
+          "hospital_B": 64,
+          "hospital_C": 65
+        }
+      ]
+    },
+    {
+      "pid": "PT1074",
+      "name": "Vishal Ahmed",
+      "conflicts": [
+        {
+          "field": "blood_sugar_fasting_mg_dl",
+          "hospital_A": 273.1,
+          "hospital_B": 267.6,
+          "hospital_C": 282.2
+        }
+      ]
+    }
+  ]
+}

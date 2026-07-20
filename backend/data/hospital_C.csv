@@ -1,0 +1,31 @@
+Patient_ID,Patient_Name,Age,Gender,Blood_Type,Active_Conditions,Current_Medications,Reported_Allergies,Last_Visit
+14ecdbe1,Sophia Martinez,34,Male,Unknown,Osteoarthritis,Metformin 1000mg; Amlodipine 5mg; Aspirin 81mg,Aspirin,2025-11-05
+531bf1ef,Aisha Patel,76,Male,A-,Chronic kidney disease; Major depressive disorder; Type 2 diabetes mellitus; Coronary heart disease,Metformin 500mg,Peanuts; Aspirin,2025-12-14
+8d1806dd,David Kim,38,Male,O-,Osteoarthritis; Chronic kidney disease; Coronary heart disease; Essential hypertension,Aspirin 81mg,,2025-07-11
+7403bbb0,Sophia Martinez,46,Male,AB-,Major depressive disorder; Hyperlipidemia,Aspirin 81mg,,2025-06-20
+378df7a2,Sophia Martinez,38,Male,O+,Hyperlipidemia,Atorvastatin 20mg; Omeprazole 20mg; Albuterol inhaler; Lisinopril 10mg,Aspirin,2025-11-04
+fb884d6c,Jane Smith,49,Male,O-,Hyperlipidemia; Osteoarthritis,Atorvastatin 20mg; Lisinopril 20mg,Sulfa drugs,2026-05-19
+5e698aee,Sarah Chen,68,Female,Unknown,Gastroesophageal reflux disease; Chronic kidney disease; Osteoarthritis; Hypothyroidism,Lisinopril 20mg; Lisinopril 10mg; Albuterol inhaler; Omeprazole 20mg,Peanuts,2026-01-12
+dd47c797,Jane Smith,24,Female,B+,Hypothyroidism; Hyperlipidemia; Coronary heart disease,Aspirin 81mg; Lisinopril 10mg; Sertraline 50mg; Metformin 500mg,Latex; Aspirin,2025-06-17
+a8000f5f,Marcus Aurelius,46,Female,B-,Gastroesophageal reflux disease; Coronary heart disease,Omeprazole 20mg,Latex; Penicillin,2025-06-17
+81c41e89,Carlos Joshi,59,Male,A+,Major depressive disorder; Type 2 diabetes mellitus; Hyperlipidemia,Metformin 500mg; Metformin 1000mg; Amlodipine 5mg; Ibuprofen 400mg,Aspirin; Sulfa drugs,2025-08-19
+b4bb076e,David Kim,36,Male,O-,Essential hypertension,Omeprazole 20mg; Metformin 1000mg; Ibuprofen 400mg; Levothyroxine 50mcg,,2025-08-10
+24666e6b,John Doe,34,Male,AB-,Osteoarthritis; Chronic kidney disease; Asthma,Atorvastatin 20mg,,2025-07-29
+16d2a449,Marcus Aurelius,33,Male,A+,Hypothyroidism; Osteoarthritis; Coronary heart disease; Asthma,Albuterol inhaler,Peanuts; Sulfa drugs,2026-02-16
+8268c74e,Marcus Aurelius,71,Male,Unknown,Hypothyroidism; Major depressive disorder; Hyperlipidemia,Metformin 500mg; Atorvastatin 40mg,Peanuts; Sulfa drugs,2025-08-12
+54bca057,John Doe,59,Male,AB-,Chronic kidney disease,Lisinopril 10mg,,2026-04-05
+018b956e,Elena Rostova,40,Female,AB+,Type 2 diabetes mellitus; Gastroesophageal reflux disease; Hypothyroidism,Sertraline 50mg; Atorvastatin 40mg; Levothyroxine 50mcg; Metformin 500mg,Peanuts; Sulfa drugs,2026-03-01
+2de85d79,Elena Rostova,67,Female,AB+,Chronic kidney disease; Gastroesophageal reflux disease; Essential hypertension; Asthma,Atorvastatin 40mg; Atorvastatin 20mg,Iodine,2026-04-20
+ae6cf9ed,Emily Clark,20,Female,Unknown,Chronic kidney disease; Hypothyroidism; Coronary heart disease; Major depressive disorder,Ibuprofen 400mg; Sertraline 50mg; Atorvastatin 40mg; Amlodipine 5mg,,2025-11-26
+34504d99,John Doe,81,Male,Unknown,Type 2 diabetes mellitus; Coronary heart disease; Gastroesophageal reflux disease,Albuterol inhaler,Iodine; Aspirin,2026-06-01
+a6a45ae1,Carlos Joshi,62,Female,A-,Essential hypertension,Levothyroxine 50mcg; Lisinopril 20mg; Metformin 500mg,,2025-08-21
+2c6bf43a,Emily Clark,84,Male,B-,Hypothyroidism; Chronic kidney disease,Aspirin 81mg; Levothyroxine 50mcg; Lisinopril 10mg,,2026-04-24
+ae8db81e,Sophia Martinez,62,Male,AB+,Gastroesophageal reflux disease; Type 2 diabetes mellitus,Omeprazole 20mg,,2025-09-10
+ceba6d38,Elena Rostova,38,Male,A+,Coronary heart disease; Hypothyroidism; Chronic kidney disease,Metformin 500mg; Metformin 1000mg; Lisinopril 10mg,Aspirin,2025-07-23
+6646073d,Sophia Martinez,43,Male,Unknown,Asthma; Coronary heart disease,Amlodipine 5mg; Aspirin 81mg; Sertraline 50mg,Iodine; Aspirin,2025-10-10
+859d7aa0,David Kim,67,Female,B-,Essential hypertension; Type 2 diabetes mellitus; Coronary heart disease,Aspirin 81mg,Latex; Penicillin,2026-04-24
+17d40ca7,Elena Rostova,74,Male,Unknown,Essential hypertension; Osteoarthritis; Major depressive disorder,Levothyroxine 50mcg; Aspirin 81mg,,2025-08-17
+ce24d490,David Kim,34,Female,Unknown,Type 2 diabetes mellitus,Sertraline 50mg; Lisinopril 10mg; Omeprazole 20mg; Ibuprofen 400mg,Sulfa drugs,2026-04-09
+fa37f914,Marcus Aurelius,29,Female,AB-,Coronary heart disease; Type 2 diabetes mellitus; Hyperlipidemia,Albuterol inhaler,Aspirin,2026-04-01
+30327cb0,John Doe,55,Female,O+,Asthma,Sertraline 50mg; Ibuprofen 400mg; Metformin 500mg; Amlodipine 5mg,Penicillin,2026-01-14
+91a27ef6,Sophia Martinez,70,Female,Unknown,Asthma; Hyperlipidemia,Metformin 500mg; Lisinopril 20mg; Albuterol inhaler; Metformin 1000mg,Aspirin,2026-02-22

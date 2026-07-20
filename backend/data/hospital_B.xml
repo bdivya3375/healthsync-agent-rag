@@ -1,0 +1,646 @@
+<?xml version="1.0" ?>
+<HospitalB_EHR>
+  <PatientRecord id="14ecdbe1">
+    <Demographics>
+      <FullName>Sophia Martinez</FullName>
+      <Gender>Male</Gender>
+      <Age>34</Age>
+      <BloodGroup>A-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Osteoarthritis</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Metformin 1000mg</Drug>
+        <Drug>Amlodipine 50mg</Drug>
+        <Drug>Aspirin 81mg</Drug>
+      </Prescriptions>
+      <Allergies>
+        <Allergy>Aspirin</Allergy>
+      </Allergies>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="531bf1ef">
+    <Demographics>
+      <FullName>Aisha Patel</FullName>
+      <Gender>Male</Gender>
+      <Age>76</Age>
+      <BloodGroup>A-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Chronic kidney disease</Condition>
+        <Condition>Major depressive disorder</Condition>
+        <Condition>Type 2 diabetes mellitus</Condition>
+        <Condition>Coronary heart disease</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Metformin 5000mg</Drug>
+      </Prescriptions>
+      <Allergies>
+        <Allergy>Aspirin</Allergy>
+        <Allergy>Peanuts</Allergy>
+      </Allergies>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="8d1806dd">
+    <Demographics>
+      <FullName>David Kim</FullName>
+      <Gender>Male</Gender>
+      <Age>38</Age>
+      <BloodGroup>O-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Osteoarthritis</Condition>
+        <Condition>Chronic kidney disease</Condition>
+        <Condition>Coronary heart disease</Condition>
+        <Condition>Essential hypertension</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Aspirin 810mg</Drug>
+      </Prescriptions>
+      <Allergies/>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="7403bbb0">
+    <Demographics>
+      <FullName>Sophia Martinez</FullName>
+      <Gender>Male</Gender>
+      <Age>46</Age>
+      <BloodGroup>AB-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Major depressive disorder</Condition>
+        <Condition>Hyperlipidemia</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Aspirin 81mg</Drug>
+      </Prescriptions>
+      <Allergies/>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="378df7a2">
+    <Demographics>
+      <FullName>Sophia Martinez</FullName>
+      <Gender>Male</Gender>
+      <Age>38</Age>
+      <BloodGroup>AB-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Hyperlipidemia</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Atorvastatin 20mg</Drug>
+        <Drug>Omeprazole 200mg</Drug>
+        <Drug>Albuterol inhaler</Drug>
+        <Drug>Lisinopril 100mg</Drug>
+      </Prescriptions>
+      <Allergies>
+        <Allergy>Aspirin</Allergy>
+      </Allergies>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="fb884d6c">
+    <Demographics>
+      <FullName>Jane S.</FullName>
+      <Gender>Male</Gender>
+      <Age>49</Age>
+      <BloodGroup>O-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Hyperlipidemia</Condition>
+        <Condition>Osteoarthritis</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Atorvastatin 20mg</Drug>
+        <Drug>Lisinopril 20mg</Drug>
+      </Prescriptions>
+      <Allergies>
+        <Allergy>Sulfa drugs</Allergy>
+      </Allergies>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="5e698aee">
+    <Demographics>
+      <FullName>Sarah Chen</FullName>
+      <Gender>Female</Gender>
+      <Age>68</Age>
+      <BloodGroup>A-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Gastroesophageal reflux disease</Condition>
+        <Condition>Chronic kidney disease</Condition>
+        <Condition>Osteoarthritis</Condition>
+        <Condition>Hypothyroidism</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Lisinopril 200mg</Drug>
+        <Drug>Lisinopril 10mg</Drug>
+        <Drug>Albuterol inhaler</Drug>
+        <Drug>Omeprazole 20mg</Drug>
+      </Prescriptions>
+      <Allergies>
+        <Allergy>Peanuts</Allergy>
+      </Allergies>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="dd47c797">
+    <Demographics>
+      <FullName>Jane Smith</FullName>
+      <Gender>Female</Gender>
+      <Age>24</Age>
+      <BloodGroup>B+</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Hypothyroidism</Condition>
+        <Condition>Hyperlipidemia</Condition>
+        <Condition>Coronary heart disease</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Aspirin 81mg</Drug>
+        <Drug>Lisinopril 100mg</Drug>
+        <Drug>Sertraline 500mg</Drug>
+        <Drug>Metformin 5000mg</Drug>
+      </Prescriptions>
+      <Allergies>
+        <Allergy>Latex</Allergy>
+      </Allergies>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="a8000f5f">
+    <Demographics>
+      <FullName>Marcus Aurelius</FullName>
+      <Gender>Female</Gender>
+      <Age>46</Age>
+      <BloodGroup>B-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Gastroesophageal reflux disease</Condition>
+        <Condition>Coronary heart disease</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Omeprazole 20mg</Drug>
+      </Prescriptions>
+      <Allergies>
+        <Allergy>Penicillin</Allergy>
+        <Allergy>Latex</Allergy>
+      </Allergies>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="81c41e89">
+    <Demographics>
+      <FullName>Carlos Joshi</FullName>
+      <Gender>Male</Gender>
+      <Age>59</Age>
+      <BloodGroup>AB+</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Major depressive disorder</Condition>
+        <Condition>Type 2 diabetes mellitus</Condition>
+        <Condition>Hyperlipidemia</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Metformin 5000mg</Drug>
+        <Drug>Metformin 10000mg</Drug>
+        <Drug>Amlodipine 50mg</Drug>
+        <Drug>Ibuprofen 4000mg</Drug>
+      </Prescriptions>
+      <Allergies>
+        <Allergy>Sulfa drugs</Allergy>
+        <Allergy>Aspirin</Allergy>
+      </Allergies>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="b4bb076e">
+    <Demographics>
+      <FullName>David K.</FullName>
+      <Gender>Male</Gender>
+      <Age>36</Age>
+      <BloodGroup>O-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Essential hypertension</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Omeprazole 20mg</Drug>
+        <Drug>Metformin 1000mg</Drug>
+        <Drug>Ibuprofen 400mg</Drug>
+        <Drug>Levothyroxine 50mcg</Drug>
+      </Prescriptions>
+      <Allergies/>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="24666e6b">
+    <Demographics>
+      <FullName>John Doe</FullName>
+      <Gender>Male</Gender>
+      <Age>34</Age>
+      <BloodGroup>AB-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Osteoarthritis</Condition>
+        <Condition>Chronic kidney disease</Condition>
+        <Condition>Asthma</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Atorvastatin 20mg</Drug>
+      </Prescriptions>
+      <Allergies/>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="16d2a449">
+    <Demographics>
+      <FullName>Marcus Aurelius</FullName>
+      <Gender>Male</Gender>
+      <Age>33</Age>
+      <BloodGroup>A-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Hypothyroidism</Condition>
+        <Condition>Osteoarthritis</Condition>
+        <Condition>Coronary heart disease</Condition>
+        <Condition>Asthma</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Albuterol inhaler</Drug>
+      </Prescriptions>
+      <Allergies>
+        <Allergy>Peanuts</Allergy>
+        <Allergy>Sulfa drugs</Allergy>
+      </Allergies>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="8268c74e">
+    <Demographics>
+      <FullName>Marcus Aurelius</FullName>
+      <Gender>Male</Gender>
+      <Age>71</Age>
+      <BloodGroup>AB-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Hypothyroidism</Condition>
+        <Condition>Major depressive disorder</Condition>
+        <Condition>Hyperlipidemia</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Metformin 500mg</Drug>
+        <Drug>Atorvastatin 40mg</Drug>
+      </Prescriptions>
+      <Allergies>
+        <Allergy>Sulfa drugs</Allergy>
+        <Allergy>Peanuts</Allergy>
+      </Allergies>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="54bca057">
+    <Demographics>
+      <FullName>John Doe</FullName>
+      <Gender>Male</Gender>
+      <Age>59</Age>
+      <BloodGroup>AB-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Chronic kidney disease</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Lisinopril 100mg</Drug>
+      </Prescriptions>
+      <Allergies/>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="018b956e">
+    <Demographics>
+      <FullName>Elena Rostova</FullName>
+      <Gender>Female</Gender>
+      <Age>40</Age>
+      <BloodGroup>AB+</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Type 2 diabetes mellitus</Condition>
+        <Condition>Gastroesophageal reflux disease</Condition>
+        <Condition>Hypothyroidism</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Sertraline 50mg</Drug>
+        <Drug>Atorvastatin 40mg</Drug>
+        <Drug>Levothyroxine 50mcg</Drug>
+        <Drug>Metformin 5000mg</Drug>
+      </Prescriptions>
+      <Allergies>
+        <Allergy>Sulfa drugs</Allergy>
+        <Allergy>Peanuts</Allergy>
+      </Allergies>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="2de85d79">
+    <Demographics>
+      <FullName>Elena Rostova</FullName>
+      <Gender>Female</Gender>
+      <Age>67</Age>
+      <BloodGroup>AB+</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Chronic kidney disease</Condition>
+        <Condition>Gastroesophageal reflux disease</Condition>
+        <Condition>Essential hypertension</Condition>
+        <Condition>Asthma</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Atorvastatin 40mg</Drug>
+        <Drug>Atorvastatin 20mg</Drug>
+      </Prescriptions>
+      <Allergies>
+        <Allergy>Iodine</Allergy>
+      </Allergies>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="ae6cf9ed">
+    <Demographics>
+      <FullName>Emily Clark</FullName>
+      <Gender>Female</Gender>
+      <Age>20</Age>
+      <BloodGroup>A+</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Chronic kidney disease</Condition>
+        <Condition>Hypothyroidism</Condition>
+        <Condition>Coronary heart disease</Condition>
+        <Condition>Major depressive disorder</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Ibuprofen 4000mg</Drug>
+        <Drug>Sertraline 500mg</Drug>
+        <Drug>Atorvastatin 40mg</Drug>
+        <Drug>Amlodipine 5mg</Drug>
+      </Prescriptions>
+      <Allergies/>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="34504d99">
+    <Demographics>
+      <FullName>John Doe</FullName>
+      <Gender>Male</Gender>
+      <Age>81</Age>
+      <BloodGroup>A+</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Type 2 diabetes mellitus</Condition>
+        <Condition>Coronary heart disease</Condition>
+        <Condition>Gastroesophageal reflux disease</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Albuterol inhaler</Drug>
+      </Prescriptions>
+      <Allergies>
+        <Allergy>Iodine</Allergy>
+      </Allergies>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="a6a45ae1">
+    <Demographics>
+      <FullName>Carlos Joshi</FullName>
+      <Gender>Female</Gender>
+      <Age>62</Age>
+      <BloodGroup>A-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Essential hypertension</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Levothyroxine 50mcg</Drug>
+        <Drug>Lisinopril 200mg</Drug>
+        <Drug>Metformin 5000mg</Drug>
+      </Prescriptions>
+      <Allergies/>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="2c6bf43a">
+    <Demographics>
+      <FullName>Emily Clark</FullName>
+      <Gender>Male</Gender>
+      <Age>84</Age>
+      <BloodGroup>B-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Hypothyroidism</Condition>
+        <Condition>Chronic kidney disease</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Aspirin 81mg</Drug>
+        <Drug>Levothyroxine 50mcg</Drug>
+        <Drug>Lisinopril 100mg</Drug>
+      </Prescriptions>
+      <Allergies/>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="ae8db81e">
+    <Demographics>
+      <FullName>Sophia M.</FullName>
+      <Gender>Male</Gender>
+      <Age>62</Age>
+      <BloodGroup>B-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Gastroesophageal reflux disease</Condition>
+        <Condition>Type 2 diabetes mellitus</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Omeprazole 20mg</Drug>
+      </Prescriptions>
+      <Allergies/>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="ceba6d38">
+    <Demographics>
+      <FullName>Elena R.</FullName>
+      <Gender>Male</Gender>
+      <Age>38</Age>
+      <BloodGroup>A-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Coronary heart disease</Condition>
+        <Condition>Hypothyroidism</Condition>
+        <Condition>Chronic kidney disease</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Metformin 500mg</Drug>
+        <Drug>Metformin 10000mg</Drug>
+        <Drug>Lisinopril 100mg</Drug>
+      </Prescriptions>
+      <Allergies>
+        <Allergy>Aspirin</Allergy>
+      </Allergies>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="6646073d">
+    <Demographics>
+      <FullName>Sophia M.</FullName>
+      <Gender>Male</Gender>
+      <Age>43</Age>
+      <BloodGroup>A-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Asthma</Condition>
+        <Condition>Coronary heart disease</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Amlodipine 5mg</Drug>
+        <Drug>Aspirin 810mg</Drug>
+        <Drug>Sertraline 50mg</Drug>
+      </Prescriptions>
+      <Allergies>
+        <Allergy>Aspirin</Allergy>
+        <Allergy>Iodine</Allergy>
+      </Allergies>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="859d7aa0">
+    <Demographics>
+      <FullName>David Kim</FullName>
+      <Gender>Female</Gender>
+      <Age>67</Age>
+      <BloodGroup>B-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Essential hypertension</Condition>
+        <Condition>Type 2 diabetes mellitus</Condition>
+        <Condition>Coronary heart disease</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Aspirin 810mg</Drug>
+      </Prescriptions>
+      <Allergies>
+        <Allergy>Penicillin</Allergy>
+        <Allergy>Latex</Allergy>
+      </Allergies>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="17d40ca7">
+    <Demographics>
+      <FullName>Elena Rostova</FullName>
+      <Gender>Male</Gender>
+      <Age>74</Age>
+      <BloodGroup>O+</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Essential hypertension</Condition>
+        <Condition>Osteoarthritis</Condition>
+        <Condition>Major depressive disorder</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Levothyroxine 50mcg</Drug>
+        <Drug>Aspirin 810mg</Drug>
+      </Prescriptions>
+      <Allergies/>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="ce24d490">
+    <Demographics>
+      <FullName>David K.</FullName>
+      <Gender>Female</Gender>
+      <Age>34</Age>
+      <BloodGroup>B-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Type 2 diabetes mellitus</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Sertraline 50mg</Drug>
+        <Drug>Lisinopril 100mg</Drug>
+        <Drug>Omeprazole 20mg</Drug>
+        <Drug>Ibuprofen 4000mg</Drug>
+      </Prescriptions>
+      <Allergies>
+        <Allergy>Sulfa drugs</Allergy>
+      </Allergies>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="fa37f914">
+    <Demographics>
+      <FullName>Marcus Aurelius</FullName>
+      <Gender>Female</Gender>
+      <Age>29</Age>
+      <BloodGroup>AB-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Coronary heart disease</Condition>
+        <Condition>Type 2 diabetes mellitus</Condition>
+        <Condition>Hyperlipidemia</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Albuterol inhaler</Drug>
+      </Prescriptions>
+      <Allergies/>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="30327cb0">
+    <Demographics>
+      <FullName>John D.</FullName>
+      <Gender>Female</Gender>
+      <Age>55</Age>
+      <BloodGroup>O+</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Asthma</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Sertraline 50mg</Drug>
+        <Drug>Ibuprofen 400mg</Drug>
+        <Drug>Metformin 5000mg</Drug>
+        <Drug>Amlodipine 50mg</Drug>
+      </Prescriptions>
+      <Allergies>
+        <Allergy>Penicillin</Allergy>
+      </Allergies>
+    </ClinicalData>
+  </PatientRecord>
+  <PatientRecord id="91a27ef6">
+    <Demographics>
+      <FullName>Sophia Martinez</FullName>
+      <Gender>Female</Gender>
+      <Age>70</Age>
+      <BloodGroup>B-</BloodGroup>
+    </Demographics>
+    <ClinicalData>
+      <Conditions>
+        <Condition>Asthma</Condition>
+        <Condition>Hyperlipidemia</Condition>
+      </Conditions>
+      <Prescriptions>
+        <Drug>Metformin 500mg</Drug>
+        <Drug>Lisinopril 200mg</Drug>
+        <Drug>Albuterol inhaler</Drug>
+        <Drug>Metformin 1000mg</Drug>
+      </Prescriptions>
+      <Allergies/>
+    </ClinicalData>
+  </PatientRecord>
+</HospitalB_EHR>

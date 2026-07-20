@@ -1,0 +1,747 @@
+{
+  "patients": [
+    {
+      "patientId": "14ecdbe1",
+      "fullName": "Sophia Martinez",
+      "ageYears": 34,
+      "sex": "Male",
+      "bloodType": "A-",
+      "knownAllergies": [
+        "Aspirin"
+      ],
+      "currentMedications": [
+        "Metformin 1000mg",
+        "Amlodipine 5mg",
+        "Aspirin 81mg"
+      ],
+      "diagnosedConditions": [
+        "Osteoarthritis"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 107.2,
+        "bloodPressure": "116/75",
+        "hemoglobin_gdL": 14.1
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833717"
+    },
+    {
+      "patientId": "531bf1ef",
+      "fullName": "Aisha Patel",
+      "ageYears": 76,
+      "sex": "Male",
+      "bloodType": "A-",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Metformin 500mg"
+      ],
+      "diagnosedConditions": [
+        "Chronic kidney disease",
+        "Major depressive disorder",
+        "Type 2 diabetes mellitus",
+        "Coronary heart disease"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 111.0,
+        "bloodPressure": "110/86",
+        "hemoglobin_gdL": 12.8
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833742"
+    },
+    {
+      "patientId": "8d1806dd",
+      "fullName": "David Kim",
+      "ageYears": 38,
+      "sex": "Male",
+      "bloodType": "O-",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Aspirin 81mg"
+      ],
+      "diagnosedConditions": [
+        "Osteoarthritis",
+        "Chronic kidney disease",
+        "Coronary heart disease",
+        "Essential hypertension"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 85.9,
+        "bloodPressure": "131/81",
+        "hemoglobin_gdL": 13.1
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833748"
+    },
+    {
+      "patientId": "7403bbb0",
+      "fullName": "Sophia Martinez",
+      "ageYears": 46,
+      "sex": "Male",
+      "bloodType": "AB-",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Aspirin 81mg"
+      ],
+      "diagnosedConditions": [
+        "Major depressive disorder",
+        "Hyperlipidemia"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 85.9,
+        "bloodPressure": "113/76",
+        "hemoglobin_gdL": 14.9
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833752"
+    },
+    {
+      "patientId": "378df7a2",
+      "fullName": "Sophia Martinez",
+      "ageYears": 38,
+      "sex": "Male",
+      "bloodType": "O+",
+      "knownAllergies": [
+        "Aspirin"
+      ],
+      "currentMedications": [
+        "Atorvastatin 20mg",
+        "Omeprazole 20mg",
+        "Albuterol inhaler",
+        "Lisinopril 10mg"
+      ],
+      "diagnosedConditions": [
+        "Hyperlipidemia"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 74.7,
+        "bloodPressure": "132/70",
+        "hemoglobin_gdL": 15.0
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833756"
+    },
+    {
+      "patientId": "fb884d6c",
+      "fullName": "Jane Smith",
+      "ageYears": 49,
+      "sex": "Male",
+      "bloodType": "O-",
+      "knownAllergies": [
+        "Sulfa drugs"
+      ],
+      "currentMedications": [
+        "Atorvastatin 20mg",
+        "Lisinopril 20mg"
+      ],
+      "diagnosedConditions": [
+        "Hyperlipidemia",
+        "Osteoarthritis"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 72.6,
+        "bloodPressure": "132/82",
+        "hemoglobin_gdL": 13.8
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833760"
+    },
+    {
+      "patientId": "5e698aee",
+      "fullName": "Sarah Chen",
+      "ageYears": 68,
+      "sex": "Female",
+      "bloodType": "A-",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Lisinopril 20mg",
+        "Lisinopril 10mg",
+        "Albuterol inhaler",
+        "Omeprazole 20mg"
+      ],
+      "diagnosedConditions": [
+        "Gastroesophageal reflux disease",
+        "Chronic kidney disease",
+        "Osteoarthritis",
+        "Hypothyroidism"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 105.3,
+        "bloodPressure": "139/78",
+        "hemoglobin_gdL": 14.3
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833764"
+    },
+    {
+      "patientId": "dd47c797",
+      "fullName": "Jane Smith",
+      "ageYears": 24,
+      "sex": "Female",
+      "bloodType": "B+",
+      "knownAllergies": [
+        "Latex"
+      ],
+      "currentMedications": [
+        "Aspirin 81mg",
+        "Lisinopril 10mg",
+        "Sertraline 50mg",
+        "Metformin 500mg"
+      ],
+      "diagnosedConditions": [
+        "Hypothyroidism",
+        "Hyperlipidemia",
+        "Coronary heart disease"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 109.4,
+        "bloodPressure": "135/75",
+        "hemoglobin_gdL": 12.1
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833768"
+    },
+    {
+      "patientId": "a8000f5f",
+      "fullName": "Marcus Aurelius",
+      "ageYears": 46,
+      "sex": "Female",
+      "bloodType": "B-",
+      "knownAllergies": [
+        "Penicillin",
+        "Latex"
+      ],
+      "currentMedications": [
+        "Omeprazole 20mg"
+      ],
+      "diagnosedConditions": [
+        "Gastroesophageal reflux disease",
+        "Coronary heart disease"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 119.7,
+        "bloodPressure": "110/89",
+        "hemoglobin_gdL": 13.0
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833771"
+    },
+    {
+      "patientId": "81c41e89",
+      "fullName": "Carlos Joshi",
+      "ageYears": 59,
+      "sex": "Male",
+      "bloodType": "A+",
+      "knownAllergies": [
+        "Sulfa drugs",
+        "Aspirin"
+      ],
+      "currentMedications": [
+        "Metformin 500mg",
+        "Metformin 1000mg",
+        "Amlodipine 5mg",
+        "Ibuprofen 400mg"
+      ],
+      "diagnosedConditions": [
+        "Major depressive disorder",
+        "Type 2 diabetes mellitus",
+        "Hyperlipidemia"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 93.4,
+        "bloodPressure": "127/86",
+        "hemoglobin_gdL": 12.4
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833777"
+    },
+    {
+      "patientId": "b4bb076e",
+      "fullName": "David Kim",
+      "ageYears": 36,
+      "sex": "Male",
+      "bloodType": "O-",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Omeprazole 20mg",
+        "Metformin 1000mg",
+        "Ibuprofen 400mg",
+        "Levothyroxine 50mcg"
+      ],
+      "diagnosedConditions": [
+        "Essential hypertension"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 90.4,
+        "bloodPressure": "126/82",
+        "hemoglobin_gdL": 12.7
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833780"
+    },
+    {
+      "patientId": "24666e6b",
+      "fullName": "John Doe",
+      "ageYears": 34,
+      "sex": "Male",
+      "bloodType": "AB-",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Atorvastatin 20mg"
+      ],
+      "diagnosedConditions": [
+        "Osteoarthritis",
+        "Chronic kidney disease",
+        "Asthma"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 94.0,
+        "bloodPressure": "126/88",
+        "hemoglobin_gdL": 14.3
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833784"
+    },
+    {
+      "patientId": "16d2a449",
+      "fullName": "Marcus Aurelius",
+      "ageYears": 33,
+      "sex": "Male",
+      "bloodType": "A+",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Albuterol inhaler"
+      ],
+      "diagnosedConditions": [
+        "Hypothyroidism",
+        "Osteoarthritis",
+        "Coronary heart disease",
+        "Asthma"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 119.5,
+        "bloodPressure": "125/86",
+        "hemoglobin_gdL": 14.6
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833787"
+    },
+    {
+      "patientId": "8268c74e",
+      "fullName": "Marcus Aurelius",
+      "ageYears": 71,
+      "sex": "Male",
+      "bloodType": "A+",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Metformin 500mg",
+        "Atorvastatin 40mg"
+      ],
+      "diagnosedConditions": [
+        "Hypothyroidism",
+        "Major depressive disorder",
+        "Hyperlipidemia"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 87.0,
+        "bloodPressure": "110/74",
+        "hemoglobin_gdL": 12.8
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833791"
+    },
+    {
+      "patientId": "54bca057",
+      "fullName": "John Doe",
+      "ageYears": 59,
+      "sex": "Male",
+      "bloodType": "AB-",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Lisinopril 10mg"
+      ],
+      "diagnosedConditions": [
+        "Chronic kidney disease"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 95.0,
+        "bloodPressure": "121/90",
+        "hemoglobin_gdL": 15.6
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833795"
+    },
+    {
+      "patientId": "018b956e",
+      "fullName": "Elena Rostova",
+      "ageYears": 40,
+      "sex": "Female",
+      "bloodType": "AB+",
+      "knownAllergies": [
+        "Sulfa drugs",
+        "Peanuts"
+      ],
+      "currentMedications": [
+        "Sertraline 50mg",
+        "Atorvastatin 40mg",
+        "Levothyroxine 50mcg",
+        "Metformin 500mg"
+      ],
+      "diagnosedConditions": [
+        "Type 2 diabetes mellitus",
+        "Gastroesophageal reflux disease",
+        "Hypothyroidism"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 106.3,
+        "bloodPressure": "125/75",
+        "hemoglobin_gdL": 12.5
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833798"
+    },
+    {
+      "patientId": "2de85d79",
+      "fullName": "Elena Rostova",
+      "ageYears": 67,
+      "sex": "Female",
+      "bloodType": "AB+",
+      "knownAllergies": [
+        "Iodine"
+      ],
+      "currentMedications": [
+        "Atorvastatin 40mg",
+        "Atorvastatin 20mg"
+      ],
+      "diagnosedConditions": [
+        "Chronic kidney disease",
+        "Gastroesophageal reflux disease",
+        "Essential hypertension",
+        "Asthma"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 95.2,
+        "bloodPressure": "125/72",
+        "hemoglobin_gdL": 13.7
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833802"
+    },
+    {
+      "patientId": "ae6cf9ed",
+      "fullName": "Emily Clark",
+      "ageYears": 20,
+      "sex": "Female",
+      "bloodType": "A-",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Ibuprofen 400mg",
+        "Sertraline 50mg",
+        "Atorvastatin 40mg",
+        "Amlodipine 5mg"
+      ],
+      "diagnosedConditions": [
+        "Chronic kidney disease",
+        "Hypothyroidism",
+        "Coronary heart disease",
+        "Major depressive disorder"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 106.0,
+        "bloodPressure": "132/90",
+        "hemoglobin_gdL": 15.5
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833806"
+    },
+    {
+      "patientId": "34504d99",
+      "fullName": "John Doe",
+      "ageYears": 81,
+      "sex": "Male",
+      "bloodType": "A+",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Albuterol inhaler"
+      ],
+      "diagnosedConditions": [
+        "Type 2 diabetes mellitus",
+        "Coronary heart disease",
+        "Gastroesophageal reflux disease"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 100.8,
+        "bloodPressure": "133/90",
+        "hemoglobin_gdL": 14.6
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833809"
+    },
+    {
+      "patientId": "a6a45ae1",
+      "fullName": "Carlos Joshi",
+      "ageYears": 62,
+      "sex": "Female",
+      "bloodType": "A-",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Levothyroxine 50mcg",
+        "Lisinopril 20mg",
+        "Metformin 500mg"
+      ],
+      "diagnosedConditions": [
+        "Essential hypertension"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 117.5,
+        "bloodPressure": "131/87",
+        "hemoglobin_gdL": 14.5
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833815"
+    },
+    {
+      "patientId": "2c6bf43a",
+      "fullName": "Emily Clark",
+      "ageYears": 84,
+      "sex": "Male",
+      "bloodType": "B-",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Aspirin 81mg",
+        "Levothyroxine 50mcg",
+        "Lisinopril 10mg"
+      ],
+      "diagnosedConditions": [
+        "Hypothyroidism",
+        "Chronic kidney disease"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 93.1,
+        "bloodPressure": "127/71",
+        "hemoglobin_gdL": 15.8
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833820"
+    },
+    {
+      "patientId": "ae8db81e",
+      "fullName": "Sophia Martinez",
+      "ageYears": 62,
+      "sex": "Male",
+      "bloodType": "AB+",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Omeprazole 20mg"
+      ],
+      "diagnosedConditions": [
+        "Gastroesophageal reflux disease",
+        "Type 2 diabetes mellitus"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 94.3,
+        "bloodPressure": "115/76",
+        "hemoglobin_gdL": 14.4
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833823"
+    },
+    {
+      "patientId": "ceba6d38",
+      "fullName": "Elena Rostova",
+      "ageYears": 38,
+      "sex": "Male",
+      "bloodType": "A+",
+      "knownAllergies": [
+        "Aspirin"
+      ],
+      "currentMedications": [
+        "Metformin 500mg",
+        "Metformin 1000mg",
+        "Lisinopril 10mg"
+      ],
+      "diagnosedConditions": [
+        "Coronary heart disease",
+        "Hypothyroidism",
+        "Chronic kidney disease"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 118.2,
+        "bloodPressure": "118/77",
+        "hemoglobin_gdL": 12.7
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833828"
+    },
+    {
+      "patientId": "6646073d",
+      "fullName": "Sophia Martinez",
+      "ageYears": 43,
+      "sex": "Male",
+      "bloodType": "A-",
+      "knownAllergies": [
+        "Aspirin",
+        "Iodine"
+      ],
+      "currentMedications": [
+        "Amlodipine 5mg",
+        "Aspirin 81mg",
+        "Sertraline 50mg"
+      ],
+      "diagnosedConditions": [
+        "Asthma",
+        "Coronary heart disease"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 82.7,
+        "bloodPressure": "137/70",
+        "hemoglobin_gdL": 13.4
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833832"
+    },
+    {
+      "patientId": "859d7aa0",
+      "fullName": "David Kim",
+      "ageYears": 67,
+      "sex": "Female",
+      "bloodType": "B-",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Aspirin 81mg"
+      ],
+      "diagnosedConditions": [
+        "Essential hypertension",
+        "Type 2 diabetes mellitus",
+        "Coronary heart disease"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 119.7,
+        "bloodPressure": "127/70",
+        "hemoglobin_gdL": 13.3
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833835"
+    },
+    {
+      "patientId": "17d40ca7",
+      "fullName": "Elena Rostova",
+      "ageYears": 74,
+      "sex": "Male",
+      "bloodType": "O+",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Levothyroxine 50mcg",
+        "Aspirin 81mg"
+      ],
+      "diagnosedConditions": [
+        "Essential hypertension",
+        "Osteoarthritis",
+        "Major depressive disorder"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 100.2,
+        "bloodPressure": "134/86",
+        "hemoglobin_gdL": 13.6
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833839"
+    },
+    {
+      "patientId": "ce24d490",
+      "fullName": "David Kim",
+      "ageYears": 34,
+      "sex": "Female",
+      "bloodType": "B-",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Sertraline 50mg",
+        "Lisinopril 10mg",
+        "Omeprazole 20mg",
+        "Ibuprofen 400mg"
+      ],
+      "diagnosedConditions": [
+        "Type 2 diabetes mellitus"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 83.6,
+        "bloodPressure": "135/86",
+        "hemoglobin_gdL": 15.0
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833843"
+    },
+    {
+      "patientId": "fa37f914",
+      "fullName": "Marcus Aurelius",
+      "ageYears": 29,
+      "sex": "Female",
+      "bloodType": "AB-",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Albuterol inhaler"
+      ],
+      "diagnosedConditions": [
+        "Coronary heart disease",
+        "Type 2 diabetes mellitus",
+        "Hyperlipidemia"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 114.4,
+        "bloodPressure": "129/87",
+        "hemoglobin_gdL": 14.7
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833847"
+    },
+    {
+      "patientId": "30327cb0",
+      "fullName": "John Doe",
+      "ageYears": 55,
+      "sex": "Female",
+      "bloodType": "O+",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Sertraline 50mg",
+        "Ibuprofen 400mg",
+        "Metformin 500mg",
+        "Amlodipine 5mg"
+      ],
+      "diagnosedConditions": [
+        "Asthma"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 70.4,
+        "bloodPressure": "110/86",
+        "hemoglobin_gdL": 15.3
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833852"
+    },
+    {
+      "patientId": "91a27ef6",
+      "fullName": "Sophia Martinez",
+      "ageYears": 70,
+      "sex": "Female",
+      "bloodType": "B-",
+      "knownAllergies": [],
+      "currentMedications": [
+        "Metformin 500mg",
+        "Lisinopril 20mg",
+        "Albuterol inhaler",
+        "Metformin 1000mg"
+      ],
+      "diagnosedConditions": [
+        "Asthma",
+        "Hyperlipidemia"
+      ],
+      "labResults": {
+        "fastingBloodGlucose_mgdL": 119.0,
+        "bloodPressure": "130/84",
+        "hemoglobin_gdL": 15.2
+      },
+      "sourceHospital": "Hospital_A",
+      "recordCreated": "2026-06-07T18:29:17.833858"
+    }
+  ]
+}
